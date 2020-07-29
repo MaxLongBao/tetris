@@ -2,7 +2,7 @@ import React from 'react';
 
 import './game.css';
 
-function Game(props) {
+const Game = (props) => {
   return (
     <canvas className="game-container">
       

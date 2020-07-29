@@ -1,7 +1,7 @@
 import React from 'react';
 import Game from './game';
 
-function Main(props) {
+const Main = (props) => {
     return (
         <div>
             Tetris
