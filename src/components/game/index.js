@@ -4,7 +4,10 @@ import './game.css';
 
 const Game = (props) => {
   return (
-    <canvas className="game-container">
+    <canvas
+      width={window.innerWidth}
+      height={window.innerHeight - 100}
+    >
       
     </canvas>
   );
