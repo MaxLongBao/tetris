@@ -6,7 +6,7 @@ const Game = (props) => {
   return (
     <canvas
       width={window.innerWidth}
-      height={window.innerHeight - 100}
+      height={window.innerHeight}
     >
       
     </canvas>
